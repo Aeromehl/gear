@@ -1,51 +1,49 @@
 function init_gear_sets()
-	gear.Gun = "Hgafircian +2"
-	gear['Gun_ammo'] = "Eminent Bullet"
-	gear['Gun_ammo_RA'] = "Eminent Bullet"
-	gear['Gun_ammo_WS'] = "Eminent Bullet"
-	gear.Bow = "Phaosphaelia"
-	gear['Bow_ammo'] = "Eminent Arrow"
-	gear['Bow_ammo_WS'] = "Eminent Arrow"
-	gear['Bow_ammo_RA'] = "Eminent Arrow"
-	gear.Accuracy = "Bocluamni +2"
+	gear.Gun = "Annihilator"
+	gear['Gun_ammo'] = "Achiyalabopa Bullet"
+	gear['Gun_ammo_RA'] = "Achiyalabopa Bullet"
+	gear['Gun_ammo_WS'] = "Achiyalabopa Bullet"
+	gear.Bow = "Falubeza"
+	gear['Bow_ammo'] = "Achiyalabopa Arrow"
+	gear['Bow_ammo_WS'] = "Achiyalabopa Arrow"
+	gear['Bow_ammo_RA'] = "Achiyalabopa Arrow"
+	gear.Accuracy = "Phaosphaelia"
 	gear['Accuracy_ammo'] = "Eminent Arrow"
 	gear['Accuracy_ammo_WS'] = "Eminent Arrow"
 	gear['Accuracy_ammo_RA'] = "Eminent Arrow"
 	--============================================================
 	--			Precast sets
 	--============================================================
-	sets.precast.JA['Double Shot'] =	{head="Sylvan Gapette +2"}
-	sets.precast.JA['Camouflage'] =		{body="Orion Jerkin"}
-	sets.precast.JA['Velocity Shot'] =	{body="Sylvan Caban +2"}
+	sets.precast.JA['Double Shot'] =	{}
+	sets.precast.JA['Camouflage'] =		{}
+	sets.precast.JA['Velocity Shot'] =	{}
 	sets.precast.JA['Flashy Shot'] =	{}
 	sets.precast.JA['Barrage'] =		{}
-	sets.precast.JA['Shadowbind'] =		{hands="Orion Bracers +1"}
-	sets.precast.JA['Bounty Shot'] =	{hands="Syl. Glvltte. +2"}
-	sets.precast.JA['Eagle Eye Shot'] =	{
-		head="Orion Beret +1",	neck="Huani collar",			ear1="Flame pearl",			ear2="Flame pearl",
-		body="Kyujutsugi",		hands="Iuitl Wristbands +1",	ring1="Strigoi Ring",		ring2="Pyrosoul Ring",
-		back="Lutian cape",		waist="Prosilio belt",			legs="Arcadian Braccae",	feet="Orion Socks +1"
-	}
-	sets.precast.JA['Sharpshot'] =		{legs="Orion Braccae +1"}
-	sets.precast.JA['Scavenge'] =		{feet="Orion socks +1"}
+	sets.precast.JA['Shadowbind'] =		{}
+	sets.precast.JA['Bounty Shot'] =	{}
+	sets.precast.JA['Eagle Eye Shot'] =	{}
+	sets.precast.JA['Sharpshot'] =		{}
+	sets.precast.JA['Scavenge'] =		{}
 	sets.precast.JA['Unlimited Shot'] =	{}
 	
 	sets.precast.Waltz = {}
 	sets.precast.Waltz['Healing Waltz'] = {}
 
 	sets.precast.FC = {
-		head="Whirlpool Mask",		neck="Twilight Torque",		
-		hands="Iuitl Wristbands",	ring1="Dark Ring",		ring2="Dark Ring",
-		back="Iximulew Cape",
+		main="",	sub="",		range="",	ammo="",
+		head="",	neck="",	ear1="",	ear2="",
+		body="",	hands="",	ring1="",	ring2="",
+		back="",	waist="",	legs="",	feet=""
 	}
-	sets.precast.FC.Utsusemi = {neck="Magoraga Beads"}
+	sets.precast.FC.Utsusemi = {}
 
 	--============================================================
 
 	sets.precast.ranged = {
-		head="Orion Beret +1",
-		body="Sylvan Caban +2",	hands="Iuitl Wristbands +1",
-		waist="Impulse Belt",
+		main="",	sub="",		range="",	ammo="",
+		head="Sylvan Gapette +2",	neck="",	ear1="",	ear2="",
+		body="Sylvan Caban +2",	hands="Iuitl Wristbands",	ring1="",	ring2="",
+		back="Lutian Cape",	waist="Impulse Belt",	legs="Nahtirah Trousers",	feet=""
 	}
 	
 	--============================================================
