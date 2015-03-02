@@ -1,6 +1,6 @@
 function init_gear_sets()
 	--============================================================
-	--			sdf			Precast sets
+	--						Precast sets
 	--============================================================
 	sets.precast.JA['Mana Wall'] = {}
 	sets.precast.JA['Manafont'] = {}
