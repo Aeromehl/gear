@@ -37,13 +37,13 @@ function init_gear_sets()
 
 	sets.wsBase = {
 		head="Uk'uxkaj Cap",		neck="Asperity Necklace",	ear1="Thunder Pearl",			ear2="Thunder Pearl",
-		body="Espial Gambison",		hands="Umuthi Gloves",		ring1="Ramuh Ring +1",			ring2="Rajas Ring",
+		body="Taeon Tabard",		hands="Umuthi Gloves",		ring1="Ramuh Ring +1",			ring2="Rajas Ring",
 		back="Forager's Mantle",	waist="Pipilaka Belt",		legs="Raid. Culottes +1",	feet="Shneddick Boots +1"
 	}
 	
 	sets.wsBase.DEX = {
 		head="Uk'uxkaj Cap",	neck="Asperity Necklace",	ear1="Thunder Pearl",	ear2="Thunder Pearl",
-		body="Espial Gambison",	hands="Shneddick Gloves",	ring1="Ramuh Ring +1",	ring2="Ramuh Ring +1",
+		body="Taeon Tabard",	hands="Shneddick Gloves",	ring1="Ramuh Ring +1",	ring2="Ramuh Ring +1",
 		back="Kayapa Cape",		waist="Pipilaka Belt",		legs="Ighwa Trousers",	feet="Shneddick Boots +1"
 	}
 	
@@ -100,6 +100,7 @@ function init_gear_sets()
 	sets.engaged.with_buff = {}
 	
 	sets.engaged.Acc = {
+		main="Izhiikoh",		sub="Atoyac",					range="Raider's Boomerang",
 		head="Whirlpool Mask",	neck="Houyi's Gorget",	ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Emet Harness",	hands="Qaaxo Mitaines",	ring1="Epona's Ring",	ring2="Oneiros Annulet",
 		back="Atheling Mantle",	waist="Anguinus Belt",	legs="Ighwa Trousers",	feet="Qaaxo Leggings"
@@ -113,6 +114,7 @@ function init_gear_sets()
 	}
 	
 	sets.engaged.CPfarm = {
+		main="Izhiikoh",		sub="Atoyac",					range="Raider's Boomerang",
 		head="Whirlpool Mask",		neck="Asperity Necklace",	ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Qaaxo Harness",		hands="Qaaxo Mitaines",		ring1="Epona's Ring",	ring2="Capacity Ring",
 		back="Aptitude Mantle +1",	waist="Windbuffet Belt",	legs="Ighwa Trousers",	feet="Qaaxo Leggings"

@@ -40,7 +40,7 @@ function init_gear_sets()
 		back="Swith Cape",			waist="Witful Belt",		legs="Assid. Pants +1",	feet="Chelona Boots"
 	}
 	sets.precast.FC.Cure = {
-		main="Arka IV",		sub="Arbuda Grip",	ammo="Impatiens",
+		main="Izhiikoh",		sub="Genbu's Shield",	ammo="Impatiens",
 		back="Pahtli Cape"
 	}
 	sets.precast.FC.EnhancingMagic = {
@@ -52,7 +52,7 @@ function init_gear_sets()
 	}
 
 	sets.precast.FC.BardSong = {
-		main="Dweomer Knife",		sub="Genbu's Shield",		range="Gjallarhorn",
+		main="Felibre's Dague",		sub="Dewomer Knife",		range="Gjallarhorn",
 		head="Aoidos' Calot +2",	neck="Aoidos' Matinee",		ear2="Aoidos' Earring",
 		body="Sheikh Manteel",		hands="Schellenband",
 		waist="Aoidos' Belt",		legs="Gendewitha Spats",	feet="Bihu Slippers +1"
@@ -83,13 +83,13 @@ function init_gear_sets()
 	
 	--============================================================
 	
-	sets.midcast.Ballad =	{}
+	sets.midcast.Ballad =	{legs="Aoidos' Rhingrave +2"}
 	sets.midcast.Lullaby =	{}
-	sets.midcast.Madrigal =	{}
+	sets.midcast.Madrigal =	{head="Aoidos' Calot +2"}
 	sets.midcast.March =	{}
-	sets.midcast.Minuet =	{}
+	sets.midcast.Minuet =	{body="Aoidos' Hongreline +2"}
 	sets.midcast.Paeon =	{}
-	sets.midcast.Scherzo =	{}
+	sets.midcast.Scherzo =	{feet="Aoidos' Cothurnes +2"}
 	
 	sets.midcast.Singing = {}
 	
@@ -101,8 +101,8 @@ function init_gear_sets()
 	sets.midcast.SongBuff = {
 		main="Legato Dagger",
 		head="Aoidos' Calot +2",		neck="Aoidos' Matinee",			ear1="Singing Earring",			ear2="Musical Earring",
-		body="Aoidos' Hngrln. +2",	hands="Ad. Mnchtte. +1",	ring1="Nereid Ring",			ring2="Nereid Ring",
-		back="Rhapsode's Cape",			waist="Harfner's Sash",			legs="Aoidos' Rhing. +2",	feet="Bihu Slippers +1"
+		body="Aoidos' Hongreline +2",	hands="Aoidos' Manchettes +1",	ring1="Nereid Ring",			ring2="Nereid Ring",
+		back="Rhapsode's Cape",			waist="Harfner's Sash",			legs="Aoidos' Rhingrave +2",	feet="Bihu Slippers +1"
 	}
 	
 	--This set is for Daurdabla/Terpander dummy songs
@@ -110,25 +110,25 @@ function init_gear_sets()
 		main="Terra's Staff",	sub="Arbuda Grip",
 		head="Kaabnax Hat",		neck="Atzintli Necklace",	ear1="Singing Earring",			ear2="Musical Earring",
 		body="Artsieq Jubbah",	hands="Umuthi Gloves",		ring1="Nereid Ring",			ring2="Nereid Ring",
-		back="Rhapsode's Cape",	waist="Corvax Sash",		legs="Aoidos' Rhing. +2",	feet="Bihu Slippers +1"
+		back="Rhapsode's Cape",	waist="Corvax Sash",		legs="Aoidos' Rhingrave +2",	feet="Bihu Slippers +1"
 	}
 	
 	sets.midcast.MagicAccuracy = {
 		main="Lehbrailg +2",	sub="Mephitis Grip",
 		head="Kaabnax Hat",		neck="Atzintli Necklace",	ear1="Lifestorm Earring",		ear2="Psystorm Earring",
 		body="Artsieq Jubbah",	hands="Gendewitha Gages",	ring1="Sangoma Ring",			ring2="Angha Ring",
-		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhing. +2",	feet="Nares Clogs"
+		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhingrave +2",	feet="Nares Clogs"
 	}
 	
 	sets.midcast.SongDebuff = {main="Lehbrailg +2",	sub="Mephitis Grip",
 		head="Kaabnax Hat",		neck="Atzintli Necklace",	ear1="Lifestorm Earring",		ear2="Psystorm Earring",
 		body="Artsieq Jubbah",	hands="Gendewitha Gages",	ring1="Sangoma Ring",			ring2="Angha Ring",
-		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhing. +2",	feet="Nares Clogs"}
+		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhingrave +2",	feet="Nares Clogs"}
 
 	sets.midcast.SongDebuff.Resistant = {main="Lehbrailg +2",	sub="Mephitis Grip",
 		head="Kaabnax Hat",		neck="Atzintli Necklace",	ear1="Lifestorm Earring",		ear2="Psystorm Earring",
 		body="Artsieq Jubbah",	hands="Gendewitha Gages",	ring1="Sangoma Ring",			ring2="Angha Ring",
-		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhing. +2",	feet="Nares Clogs"}
+		back="Rhapsode's Cape",	waist="Demonry Sash",		legs="Aoidos' Rhingrave +2",	feet="Nares Clogs"}
 
 	--============================================================		
 	
@@ -145,7 +145,7 @@ function init_gear_sets()
 	
 	sets.midcast.Cure = {
 		main="Arka IV",			sub="Arbuda Grip",							ammo="Impatiens",
-		body="Artsieq Jubbah",	hands="Serpentes Cuffs",
+		body="Artsieq Jubbah",	hands="Bokwus Gloves",
 		back="Oretania's Cape",	waist="Witful Belt",	legs="Nares Trews",	feet="Serpentes Sabots"
 	}
 	sets.midcast.Cure.with_buff = {}
@@ -171,8 +171,9 @@ function init_gear_sets()
 		back="Kumbira Cape",	waist="Flume Belt",			legs="Assid. Pants +1",	feet="Serpentes Sabots"
 	}
 	sets.idle.Speedy = {
+		head='Telchine Cap',
 		range="Gjallarhorn",
-		feet="Aoidos' Cothrn. +2"
+		feet="Aoidos' Cothurnes +2"
 	}
 	
 	sets.idle.lowMP = {}

@@ -4,7 +4,7 @@ function init_gear_sets()
 	--============================================================
 	sets.precast.FC = {
 		main="Ababinili",																ammo="Impatiens",
-		head="Haruspex Hat",	neck="Orison Locket",		ear1="Loquacious Earring",	ear2="Roundel Earring",
+		head="Haruspex Hat",	neck="Aceso's Choker",		ear1="Loquacious Earring",	ear2="Roundel Earring",
 		body="Artsieq Jubbah",	hands="Gendewitha Gages",	ring1="Ephedra Ring",		ring2="Veneficium Ring",
 		back="Ogapepo Cape",	waist="Witful Belt",		legs="Assid. Pants +1",	feet="Regal Pumps"
 	}
@@ -13,9 +13,9 @@ function init_gear_sets()
 	sets.precast.FC.EnhancingMagic.Stoneskin = {head="Umuthi Hat"}
 	sets.precast.FC.HealingMagic = {legs="Orsn. Pantaln. +2"}
 	sets.precast.FC.Cure = {
-		ear1="Nourishing Earring +1",	ear2="Nourishing Earring",
+		neck="Aceso's Choker", ear1="Nourishing Earring +1",	ear2="Nourishing Earring",
 		body="Facio Bliaut",
-		back="Pahtli Cape",
+		back="Pahtli Cape", feet="Cure Clogs"
 	}
 	
 	sets.precast.FC.Lightning = {}
@@ -54,7 +54,7 @@ function init_gear_sets()
 	sets.midcast.Cure.with_buff = {}
 
 	sets.midcast.Curaga = sets.midcast.Cure
-	sets.midcast.Cure.Engaged = sets.midcast.Cure
+
 
 	sets.midcast.Cursna = {
 		main="Ababinili",			sub="Arbuda Grip",											ammo="Impatiens",

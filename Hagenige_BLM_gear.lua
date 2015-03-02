@@ -1,6 +1,6 @@
 function init_gear_sets()
 	--============================================================
-	--						Precast sets
+	--			sdf			Precast sets
 	--============================================================
 	sets.precast.JA['Mana Wall'] = {}
 	sets.precast.JA['Manafont'] = {}
@@ -10,7 +10,7 @@ function init_gear_sets()
 		main="Twebuliij",		sub="Arbuda Grip",			ammo="Impatiens",
 		head="Haruspex Hat",	ear1="Loquacious Earring",	ear2="Gifted Earring",
 		body="Artsieq Jubbah",	hands="Repartie Gloves",	ring1="Veneficium Ring",
-		back="Ogapepo Cape",	waist="Witful Belt",		legs="Bokwus Slops",		feet="Chelona Boots"
+		back="Ogapepo Cape",	waist="Witful Belt",		legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
 
 	sets.precast.FC.EnhancingMagic = {
@@ -43,9 +43,9 @@ function init_gear_sets()
 
 	sets.midcast.Cure = {
 		main="Tamaxchi",		sub="Genbu's Shield",
-		head="Chelona Hat +1",	ear1="Lifestorm Earring",	ear2="Gifted Earring",
-		body="Artsieq Jubbah",	hands="Serpentes Cuffs",	ring2="Sangoma Ring",
-		legs="Nares Trews",		feet="Serpentes Sabots"
+		ear1="Lifestorm Earring",	ear2="Gifted Earring",
+		body="Artsieq Jubbah",	hands="Bokwus Gloves",	ring2="Sangoma Ring",
+		legs="Nares Trews",		feet="Regal Pumps"
 	}
 	sets.midcast.Cure.with_buff = {}
 	sets.midcast.Curaga = sets.midcast.Cure
@@ -88,26 +88,25 @@ function init_gear_sets()
 	sets.midcast.BardSong = {}
 
 	sets.midcast.ElementalMagic = {
-		main="Twebuliij",		sub="Elder's Grip",									ammo="Witchstone",
-		--head="Buremte Hat", once lv 15
+		main="Twebuliij",		sub="Elder's Grip",									ammo="Dosis Tathlum",
 		head="Hagondes Hat",	neck="Eddy Necklace",	ear1="Friomisi Earring",	ear2="Hecate's Earring",
 		body="Artsieq Jubbah",	hands="Otomi Gloves",	ring1="Acumen Ring",		ring2="Strendu Ring",
-		back="Toro Cape",		waist="Oneiros Sash",	legs="Hagondes Pants",		feet="Weatherspoon Souliers +1"
+		back="Toro Cape",		waist="Oneiros Sash",	legs="Hagondes Pants",		feet="Hagondes Sabots"
 	}
-	sets.midcast.ElementalMagic.Hybrid = {	--NOTE: Not being used
-		main="Twebuliij",		sub="Mephitis Grip",								ammo="Witchstone",
-		head="Buremte Hat",		neck="Eddy Necklace",	ear1="Friomisi Earring",	ear2="Hecate's Earring",
-		body="Artsieq Jubbah",	hands="Otomi Gloves",	ring1="Acumen Ring",		ring2="Strendu Ring",
-		back="Hecate's Cape",	waist="Oneiros Sash",	legs="Hagondes Pants",		feet="Nares Clogs"
-	}
-	sets.midcast.ElementalMagic.with_buff = {}
-	sets.midcast.ElementalMagic.Earth = {}
 	
+	sets.midcast.ElementalMagic.with_buff = {}
+	sets.midcast.ElementalMagic.Earth = {neck="Quanpur Necklace"}
+	sets.midcast.ElementalMagic.T123 = {
+		main="Kaladanda",		sub="Elder's Grip",									ammo="Dosis Tathlum",
+		head="Buremte Hat",	neck="Eddy Necklace",	ear1="Friomisi Earring",	ear2="Hecate's Earring",
+		body="Artsieq Jubbah",	hands="Otomi Gloves",	ring1="Acumen Ring",		ring2="Strendu Ring",
+		back="Toro Cape",		waist="Oneiros Sash",	legs="Hagondes Pants",		feet="Hagondes Sabots"
+	}
 	sets.midcast.ElementalMagic.Resistant = {
-		main="Twebuliij",		sub="Mephitis Grip",								ammo="Sturm's Report",
-		head="Buremte Hat",		neck="Eddy Necklace",	ear1="Lifestorm Earring",	ear2="Psystorm Earring",
-		body="Artsieq Jubbah",	hands="Hagondes Cuffs",	ring1="Irrwisch Ring",		ring2="Sangoma Ring",
-		back="Ogapepo Cape",	waist="Oneiros Sash",	legs="Hagondes Pants",		feet="Ihwa Huaraches"
+		main="Lehbrailg +2",		sub="Mephitis Grip",								ammo="Dosis Tathlum",
+		head="Hagondes Hat",		neck="Eddy Necklace",	ear1="Lifestorm Earring",	ear2="Psystorm Earring",
+		body="Artsieq Jubbah",	hands="Otomi Gloves",	ring1="Irrwisch Ring",		ring2="Sangoma Ring",
+		back="Ogapepo Cape",	waist="Demonry Sash",	legs="Hagondes Pants",		feet="Hagondes Sabots"
 	}
 	
 	sets.midcast.ElementalEnfeeble = {}
@@ -118,21 +117,19 @@ function init_gear_sets()
 	sets.resting = {}
 	
 	sets.idle = {
-		main="Terra's Staff",	sub="",												ammo="Vanir Battery",
+		main="Bolelabunga",	sub="Genbu's Shield",	ammo="Vanir Battery",
 		head="Umuthi Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
-		body="Hagondes Coat +1",hands="Otomi Gloves",	ring1="Dark Ring",			ring2="Dark Ring",
-		back="Iximulew Cape",	waist="",				legs="Hagondes Pants",		feet="Hagondes Sabots"
+		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Dark Ring",
+		back="Toro Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
 	sets.idle.lowMP = {
-		main="Twebuliij",
-		--main="Bolelabunga",
-		ammo="Vanir Battery",
-		head="Umuthi Hat",		neck="Wiglen Gorget",	ear1="Loquacious Earring",	ear2="Gifted Earring",
-		body="Artsieq Jubbah",	hands="Serpentes Cuffs",ring1="Sheltered Ring",		ring2="Paguroidea Ring",
-		back="Kumbira Cape",	waist="Witful Belt",	legs="Assid. Pants +1",	feet="Serpentes Sabots"
+		main="Bolelabunga",	sub="Genbu's Shield",	ammo="Vanir Battery",
+		head="Umuthi Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
+		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Dark Ring",
+		back="Toro Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
-	sets.idle.lowMP_night =	{}
-	sets.idle.lowMP_day = {}
+	sets.idle.lowMP_night =	{hands="Serpentes Cuffs"}
+	sets.idle.lowMP_day = {feet="Serpentes Sabots"}
 	
 	sets.idle.with_buff = {}
 	

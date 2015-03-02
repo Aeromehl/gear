@@ -25,7 +25,7 @@ function init_gear_sets()
 		feet="Regal Pumps"		--4%
 	}
 	
-	sets.precast.FC.SummoningMagic = {
+	sets.precast.FC.SummoningMagic = {ammo="Eminent Sachet",
 		back="Ogapepo Cape"
 	}
 	
@@ -54,15 +54,9 @@ function init_gear_sets()
 	
 	sets.precast.JA['Astral Flow'] = {}
 	sets.precast.JA['Elemental Siphon'] = {feet="Caller's Pigaches +2", back="Conveyance Cape"}
+	
 	sets.precast.JA['Mana Cede'] = {hands="Caller's Bracers +2"}
-	sets.precast.BP = {
-		main="Soulscourge",
-		head="Convoker's Horn +1", 
-		body="Yinyang Robe", hands="Convoker's Bracers +1",
-		ear1="Gifted Earring",
-		back="Conveyance Cape", feet="Glyph. Pigaches +1"}
-	sets.precast.BP.Ward = {}
-	sets.precast.BP.Rage = {}
+	sets.precast.JA["Avatar's Favor"] = {head="Caller's Horn +2"}
 
 	sets.precast.Waltz = {}
 	
@@ -92,10 +86,11 @@ function init_gear_sets()
 		back="Conveyance Cape", waist="", legs="Caller's Spats +2", feet="Austere Sabots"
 	}
 	sets.midcast.pet.BP.Ward = {
-		main="", sub="", ammo="",
-		head="", neck="", ear1="", ear2="",
-		body="", hands="", ring1="", ring2="",
-		back="", waist="", legs="", feet=""
+		main="Soulscourge",
+		head="Convoker's Horn +1", 
+		body="Yinyang Robe", hands="Convoker's Bracers +1",
+		ear1="Gifted Earring",
+		back="Conveyance Cape", feet="Glyph. Pigaches +1"
 	}
 	sets.midcast.pet.BP.Ward.Buff = {
 		main="", sub="", ammo="",
@@ -142,7 +137,8 @@ function init_gear_sets()
 
 	sets.midcast.Cursna = {
 		hands="Hieros Mittens",
-		feet="Gendewitha Galoshes +1"
+		feet="Gendewitha Galoshes +1",
+		ring1="Ephedra Ring", ring2="Ephedra Ring"
 	}
 
 	sets.midcast.StatusRemoval = {}
@@ -192,9 +188,7 @@ function init_gear_sets()
 		body="Artsieq Jubbah",		hands="Serpentes Cuffs",	ring1="Sheltered Ring",		ring2="Paguroidea Ring",
 		back="Kumbira Cape",		waist="Isa Belt",			legs="Assiduity Pants +1",	feet="Serpentes Sabots"
 	}
-	sets.idle.lowMP = {
-		legs="Nares Trews"
-	}
+	sets.idle.lowMP = {}
 	sets.idle.lowMP_night =	{hands="Serpentes Cuffs"}
 	sets.idle.lowMP_day = {feet="Serpentes Sabots"}
 	
@@ -315,10 +309,11 @@ function init_gear_sets()
 	}
 	sets.idle.with_pet.Spirit = sets.idle.with_pet.perp7
 	sets.idle.with_pet.Avatar = sets.idle.with_pet.perp15
+	sets.idle.with_favor = {head="Caller's Horn +2"}
 	
 	sets.idle.with_buff = {}
 	sets.idle.with_buff['doom'] = {ring1="Saida Ring", ring2="Saida Ring"}
-	sets.idle.with_buff["Avatar's Favor"] = {head="Caller's Horn +2"}
+	
 	
 	sets.defense.DT = {
 		head="Kaabnax Hat",	neck="Twilight Torque",

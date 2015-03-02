@@ -180,7 +180,7 @@ function init_gear_sets()
 	sets.defense.MDT = sets.idle
 
 	sets.weapons = {}
-	sets.weapons.ddSS = {main="Mimesis", sub="Xiutleato"}
+	sets.weapons.ddSS = {main="Buramenk'ah", sub="Xiutleato"}
 	sets.weapons.ddSC = {main="Mimesis", sub="Tamaxchi"}
 	sets.weapons.SSH = {main="Mimesis", sub="Genbu's Shield"}
 	sets.weapons.aoeCC = {main="Homestead Wand", sub="Tamaxchi"}

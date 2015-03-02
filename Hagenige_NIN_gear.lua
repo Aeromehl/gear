@@ -14,11 +14,14 @@ function init_gear_sets()
 	sets.precast.FC = {
 		main="",	sub="",		range="",	ammo="",
 		head="",	neck="",	ear1="",	ear2="",
-		body="",	hands="",	ring1="",	ring2="",
+		body="",	hands="",	ring1="Veneficium Ring",	ring2="",
 		back="",	waist="",	legs="",	feet=""
 	}
 	
-	sets.precast.FC.Utsusemi = combineSets(sets.precast.FC, {})
+	sets.precast.FC.Utsusemi = combineSets(sets.precast.FC, {ammo="Impatiens",
+		neck="Magoraga Beads",	ear1="Loquacious Earring",
+		body="Taeon Tabard", ring1="Veneficium Ring",
+		legs="Spry Tights",		feet="Iga Kyahan +2"})
 
 	--============================================================
 	--sets.wsBase[magic][sam/other][state.OffenseMode][state.RangedMode][wsmod[spell.en]]
@@ -30,12 +33,12 @@ function init_gear_sets()
 	
 	sets.wsBase.DEX = {																	ammo="Happo Shuriken",
 		head="Uk'uxkaj Cap",	neck="Tlamiztli Colalr",	ear1="Thunder Pearl",		ear2="Thunder Pearl",
-		body="Qaaxo Harness",	hands="Qaaxo Mitaines",		ring1="Rajas Ring",			ring2="Ramuh Ring +1",
+		body="Taeon Tabard",	hands="Qaaxo Mitaines",		ring1="Ramuh Ring +1",			ring2="Ramuh Ring +1",
 		back="Kayapa Cape",		waist="Anguinus Belt",		legs="Byakko's Haidate",	feet="Qaaxo Leggings"
 	}
 	sets.wsBase.AGI = {																ammo="Happo Shuriken",
 		head="Uk'uxkaj Cap",	neck="Houyi's Gorget",	ear1="Bladeborn Earring",	ear2="Steelflash Earring",
-		body="Qaaxo Harness",	hands="Otronif Gloves",	ring1="Pyrosoul Ring",		ring2="Pyrosoul Ring",
+		body="Taeon Tabard",	hands="Otronif Gloves",	ring1="Pyrosoul Ring",		ring2="Pyrosoul Ring",
 		back="Atheling Mantle",	waist="Shadow Belt",	legs="Kaabnax Trousers",	feet="Shneddick Boots +1"
 	}
 	
@@ -49,7 +52,7 @@ function init_gear_sets()
 		ring1="Veneficium Ring"
 	}
 	sets.midcast.Utsusemi = {
-		ammo="Impatiens",
+		ammo="Impatiens", body="Taeon Tabard",
 		neck="Magoraga Beads",	ear1="Loquacious Earring", 
 		legs="Spry Tights",		feet="Iga Kyahan +2"
 	}
@@ -69,8 +72,14 @@ function init_gear_sets()
 	
 	sets.idle = {																				ammo="Happo Shuriken",
 		head="Ocelomeh Headpiece +1",	neck="Wiglen Gorget",		ear1="Heartseeker earring",	ear2="Dudgeon earring",
-		body="Qaaxo Harness",			hands="Qaaxo Mitaines",		ring1="Sheltered Ring",		ring2="Paguroidea Ring",
+		body="Taeon Tabard",			hands="Qaaxo Mitaines",		ring1="Sheltered Ring",		ring2="Paguroidea Ring",
 		back="Atheling Mantle",			waist="Windbuffet Belt",	legs="Kaabnax Trousers",	feet="Qaaxo Leggings"
+	}
+	
+	sets.idle.CPfarm = {																				ammo="Happo Shuriken",
+		head="Ocelomeh Headpiece +1",	neck="Wiglen Gorget",		ear1="Heartseeker earring",	ear2="Dudgeon earring",
+		body="Taeon Tabard",			hands="Qaaxo Mitaines",		ring1="Sheltered Ring",		ring2="Capacity Ring",
+		back="Aptitude Mantle +1",			waist="Windbuffet Belt",	legs="Kaabnax Trousers",	feet="Qaaxo Leggings"
 	}
 	sets.idle.with_buff = {}
 	
@@ -86,7 +95,7 @@ function init_gear_sets()
 	
 	sets.engaged = {																	ammo="Happo Shuriken",
 		head="Whirlpool Mask",	neck="Asperity necklace",	ear1="Heartseeker earring",	ear2="Dudgeon earring",
-		body="Qaaxo Harness",	hands="Qaaxo Mitaines",		ring1="Epona's ring",		ring2="Cho'j Band",
+		body="Taeon Tabard",	hands="Qaaxo Mitaines",		ring1="Epona's ring",		ring2="Cho'j Band",
 		back="Atheling Mantle",	waist="Windbuffet belt",	legs="Kaabnax Trousers",	feet="Qaaxo Leggings"
 	}
 	
@@ -94,5 +103,17 @@ function init_gear_sets()
 		head="Whirlpool Mask",	neck="Peacock Charm",	ear1="Heartseeker earring",	ear2="Dudgeon earring",
 		body="Qaaxo Harness",	hands="Qaaxo Mitaines",	ring1="Oneiros Annulet",	ring2="Yacuruna ring",
 		back="Kayapa Cape",		waist="Anguinus belt",	legs="Ighwa Trousers",		feet="Qaaxo Leggings"
+	}
+	
+	sets.engaged.Evasion = {														ammo="Hasty Pinion +1",
+		head="Shneddick Chapeau +1",	neck="Asperity Necklace",	ear1="Heartseeker earring",	ear2="Dudgeon earring",
+		body="Qaaxo Harness",	hands="Qaaxo Mitaines",	ring1="Epona's Ring",	ring2="Cho'j Band",
+		back="Iximulew Cape",		waist="Phasmida Belt",	legs="Ighwa Trousers",		feet="Qaaxo Leggings"
+	}
+	
+	sets.engaged.CPfarm = {																	ammo="Happo Shuriken",
+		head="Whirlpool Mask",	neck="Asperity necklace",	ear1="Heartseeker earring",	ear2="Dudgeon earring",
+		body="Taeon Tabard",	hands="Qaaxo Mitaines",		ring1="Epona's ring",		ring2="Capacity Ring",
+		back="Aptitude Mantle +1",	waist="Windbuffet belt",	legs="Kaabnax Trousers",	feet="Qaaxo Leggings"
 	}
 end
