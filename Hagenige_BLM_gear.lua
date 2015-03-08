@@ -65,13 +65,18 @@ function init_gear_sets()
 		waist="Siegel Sash",	legs="Haven Hose"
 	}
 
-	sets.midcast.MagicAccuracy = {}
+	sets.midcast.MagicAccuracy = {
+		main="Lehbrailg +2",		sub="Mephitis Grip",								ammo="Sturm's Report",
+		head="Artsieq Hat",		neck="Eddy Necklace",	ear1="Lifestorm Earring",	ear2="Psystorm Earring",
+		body="Artsieq Jubbah",	hands="Hagondes Cuffs",	ring1="Irrwisch Ring",		ring2="Sangoma Ring",
+		back="Ogapepo Cape",	legs="Bokwus Slops",	feet="Artsieq Boots"
+	}
 	
 	sets.midcast.EnfeeblingMagic = {
-		main="Twebuliij",		sub="Mephitis Grip",								ammo="Sturm's Report",
-		head="Buremte Hat",		neck="Eddy Necklace",	ear1="Lifestorm Earring",	ear2="Psystorm Earring",
+		main="Lehbrailg +2",		sub="Mephitis Grip",								ammo="Sturm's Report",
+		head="Artsieq Hat",		neck="Eddy Necklace",	ear1="Lifestorm Earring",	ear2="Psystorm Earring",
 		body="Artsieq Jubbah",	hands="Hagondes Cuffs",	ring1="Irrwisch Ring",		ring2="Sangoma Ring",
-		back="Ogapepo Cape",	legs="Bokwus Slops",	feet="Nares Clogs"
+		back="Ogapepo Cape",	legs="Bokwus Slops",	feet="Artsieq Boots"
 	}
 
 	sets.midcast.DarkMagic = {
@@ -118,15 +123,15 @@ function init_gear_sets()
 	
 	sets.idle = {
 		main="Bolelabunga",	sub="Genbu's Shield",	ammo="Vanir Battery",
-		head="Umuthi Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
-		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Dark Ring",
-		back="Toro Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
+		head="Artsieq Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
+		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Patricius Ring",
+		back="Iximulew Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
 	sets.idle.lowMP = {
 		main="Bolelabunga",	sub="Genbu's Shield",	ammo="Vanir Battery",
-		head="Umuthi Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
+		head="Artsieq Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
 		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Dark Ring",
-		back="Toro Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
+		back="Iximulew Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
 	sets.idle.lowMP_night =	{hands="Serpentes Cuffs"}
 	sets.idle.lowMP_day = {feet="Serpentes Sabots"}

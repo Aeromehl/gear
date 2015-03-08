@@ -4,7 +4,7 @@ function init_gear_sets()
 	--============================================================
 	sets.precast.FC = {neck="Magoraga Bead Necklace",ear1="Loquacious Earring",
 					neck="Magoraga Bead Necklace",ear1="Loquacious Earring",
-					ring2="Veneficium Ring"ring2="Veneficium Ring"}
+					ring2="Veneficium Ring"}
 	sets.precast.FC.ElementalMagic = {}
 	sets.precast.FC.DarkMagic = {}
 	sets.precast.FC.EnfeeblingMagic = {}
@@ -22,7 +22,7 @@ function init_gear_sets()
 	sets.precast.FC.EnhancingMagic.Stoneskin = {}
 	sets.precast.FC.HealingMagic = {}
 	sets.precast.FC.Cure = {}
-	sets.precast.FC.Curaga = sets_combine(sets.precast.FC.Cure, {})
+	sets.precast.FC.Curaga = sets.precast.FC.Cure
 	
 	
 	--============================================================
@@ -30,9 +30,9 @@ function init_gear_sets()
 	--============================================================
 	
 	sets.precast.JA.Maneuver = {neck="Buffoon's Collar +1",body="Cirque Farsetto +1",
-								hands={'Foire Dastanas +1', 'Foire Dastanas'},range="Eminent Animator",
+								hands={'Foire Dastanas +1', 'Foire Dastanas'},range="Divinator",
 								back='Dispersal Mantle'}
-	sets.precast.JA['Repair'] = {ear1="Ghignol Earring",ear2="Pratik Earring",feet={'Foire Bab. +1', 'Foire Babouches'}}
+	sets.precast.JA['Repair'] = {ear1="Ghignol Earring",ear2="Pratik Earring",feet={'Foire Babouches +1', 'Foire Babouches'}}
 	sets.precast.JA['Overdrive'] = {body={'Pitre Tobe+1', 'Pitre Tobe'}}
 	sets.precast.JA['Activate'] = {}
 	sets.precast.JA['Deus Ex Automata'] = {}
@@ -85,6 +85,7 @@ function init_gear_sets()
 	sets.midcast.Cure.Engaged = sets.midcast.Cure
 
 	sets.midcast.Cursna = {}
+	sets.midcast.Cursna.with_buff = {}
 	sets.midcast.Cursna.with_buff['doom'] = {}
 
 	sets.midcast.StatusRemoval = {}
@@ -115,11 +116,13 @@ function init_gear_sets()
 	sets.midcast.EnfeeblingMagic.Potency.Normal = {}
 	
 	sets.midcast.ElementalMagic = {}
+	sets.midcast.ElementalMagic.with_buff = {}
 	sets.midcast.ElementalMagic.with_buff['elemental seal'] = {}
 	sets.midcast.ElementalMagic.Earth = {}
 	
 	sets.midcast.ElementalEnfeeble = {}
 	
+	sets.midcast.BlueMagic = {}
 	sets.midcast.BlueMagic.Physical = {}
 	sets.midcast.BlueMagic.Physical.DEX = {}
 	sets.midcast.BlueMagic.Physical.STR = {}
@@ -132,7 +135,7 @@ function init_gear_sets()
 	--						Other sets
 	--============================================================
 	
-	sets.resting = set_combine(sets.idle, {Foire Taj})
+	sets.resting = set_combine(sets.idle, {head="Foire Taj"})
 	sets.resting.with_buff = {}
 
 	sets.idle = {head="Pitre Taj +1",neck="Wiglen Gorget", ear1="Steelflash earring", ear2="Bladeborn earring",
@@ -171,7 +174,7 @@ function init_gear_sets()
 	sets.engaged.CPfarm = {head="Whirlpool Mask",neck="Asperity Necklace", ear1="Steelflash earring", ear2="Bladeborn earring",
 			    body="Qaaxo Harness",hands="Qaaxo Mitaines",ring1="Epona's ring",ring2="Capacity ring",
 			    back="Aptitude Mantle",waist="Windbuffet Belt",legs="Kaabnax Trousers",feet="Qaaxo Leggings"}
-	sets.engaged.with_buff['doom'] = {}
 	sets.engaged.with_buff = {}
+	sets.engaged.with_buff['doom'] = {}
 	sets.engaged.with_buff['reive mark'] = {}
 end

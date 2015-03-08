@@ -141,7 +141,7 @@ function init_gear_sets()
 	}
 	
 	sets.midcast.HealingMagic = {}
-	sets.midcast.Cursna = {}
+	sets.midcast.Cursna = {ring1="Haoma's Ring", ring2="Haoma's Ring", feet="Gendewitha Galoshes"}
 	
 	sets.midcast.Cure = {
 		main="Arka IV",			sub="Arbuda Grip",							ammo="Impatiens",
@@ -167,7 +167,7 @@ function init_gear_sets()
 	sets.idle = {
 		main="Izhiikoh",		sub="Genbu's Shield",									range="Oneiros Harp",
 		head="Kaabnax Hat",		neck="Wiglen Gorget",		ear1="Lifestorm Earring",	ear2="Psystorm Earring",
-		body="Artsieq Jubbah",	hands="Serpentes Cuffs",	ring1="Sheltered Ring",		ring2="Paguroidea Ring",
+		body="Artsieq Jubbah",	hands="Serpentes Cuffs",	ring1="Sheltered Ring",		ring2="Patricius Ring",
 		back="Kumbira Cape",	waist="Flume Belt",			legs="Assid. Pants +1",	feet="Serpentes Sabots"
 	}
 	sets.idle.Speedy = {
@@ -179,7 +179,7 @@ function init_gear_sets()
 	sets.idle.lowMP = {}
 	sets.idle.lowMP_night =	{}
 	sets.idle.with_buff = {}
-	sets.idle.with_buff['doom'] = {}
+	sets.idle.with_buff['doom'] = {ring1="Saida Ring"}
 	
 	sets.engaged = {
 		main="Izhiikoh",		sub="Atoyac",											range="Oneiros Harp",

@@ -92,7 +92,7 @@ function init_gear_sets()
 	})
 	
 	sets.engaged = {
-		main="Izhiikoh",		sub="Atoyac",				range="Raider's Boomerang",
+		main="Ipetam",		sub="Izhiikoh",				range="Raider's Boomerang",
 		head="Whirlpool Mask",	neck="Asperity Necklace",	ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Qaaxo Harness",	hands="Qaaxo Mitaines",		ring1="Epona's Ring",	ring2="Rajas Ring",
 		back="Atheling Mantle",	waist="Windbuffet Belt",	legs="Ighwa Trousers",	feet="Qaaxo Leggings"
@@ -100,21 +100,21 @@ function init_gear_sets()
 	sets.engaged.with_buff = {}
 	
 	sets.engaged.Acc = {
-		main="Izhiikoh",		sub="Atoyac",					range="Raider's Boomerang",
+		main="Ipetam",		sub="Izhiikoh",					range="Raider's Boomerang",
 		head="Whirlpool Mask",	neck="Houyi's Gorget",	ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Emet Harness",	hands="Qaaxo Mitaines",	ring1="Epona's Ring",	ring2="Oneiros Annulet",
 		back="Atheling Mantle",	waist="Anguinus Belt",	legs="Ighwa Trousers",	feet="Qaaxo Leggings"
 	}
 	
 	sets.engaged.TH = {
-		main="Izhiikoh",		sub="Sandung",					range="Raider's Boomerang",
+		main="Ipetam",		sub="Sandung",					range="Raider's Boomerang",
 		head="Whirlpool Mask",	neck="Asperity Necklace",		ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Qaaxo Harness",	hands="Plunderer's Armlets +1",	ring1="Epona's Ring",	ring2="Rajas Ring",
 		back="Atheling Mantle",	waist="Windbuffet Belt",		legs="Ighwa Trousers",	feet="Raider's Poulaines +2"
 	}
 	
 	sets.engaged.CPfarm = {
-		main="Izhiikoh",		sub="Atoyac",					range="Raider's Boomerang",
+		main="Ipetam",		sub="Izhiikoh",					range="Raider's Boomerang",
 		head="Whirlpool Mask",		neck="Asperity Necklace",	ear1="Dudgeon Earring",	ear2="Heartseeker Earring",
 		body="Qaaxo Harness",		hands="Qaaxo Mitaines",		ring1="Epona's Ring",	ring2="Capacity Ring",
 		back="Aptitude Mantle +1",	waist="Windbuffet Belt",	legs="Ighwa Trousers",	feet="Qaaxo Leggings"

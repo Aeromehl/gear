@@ -80,7 +80,7 @@ function init_gear_sets()
 	sets.midcast.Cure = {
 		head="Rev. Coronet +1",	neck="Twilight Torque",	ear1="Nourishing Earring +1",	ear2="Nourishing Earring",		      
 		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Kunaji Ring",			ring2="Asklepian Ring",
-		back="Iximulew Cape",			waist="Chuq'aba Belt",	legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Iximulew Cape",			waist="Chuq'aba Belt",	legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	
 	sets.midcast.Cure.Self = {}
@@ -101,12 +101,12 @@ function init_gear_sets()
 	sets.idle = {
 		head="Rev. Coronet +1",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Knight's earring",			      
 		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Dark Ring",
-		back="Shadow Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Shadow Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.idle.Twilight = {
 		head="Twilight Helm",	neck="Creed Collar",	ear1="Steelflash earring",		ear2="Bladeborn earring",
 		body="Twilight Mail",	hands="Umuthi Gloves",	ring1="Paguroidea Ring",		ring2="Sheltered Ring",
-		back="Iximulew Cape",	waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Iximulew Cape",	waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.idle.with_buff = {}
 	
@@ -117,8 +117,8 @@ function init_gear_sets()
 	
 	sets.defense.PDT = {																		ammo="Brigantia Pebble",
 		head="Rev. Coronet +1",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Knight's earring",			      
-		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Dark Ring",
-		back="Weard Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Patricius Ring",
+		back="Weard Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 
 	sets.defense.MDT = {																	ammo="Vanir Battery",
@@ -132,20 +132,31 @@ function init_gear_sets()
 	}
 	sets.engaged.with_buff = {}
 	
+	sets.engaged.PDT = {																		ammo="Brigantia Pebble",
+		head="Rev. Coronet +1",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Knight's earring",			      
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Patricius Ring",
+		back="Weard Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
+	}
+	sets.engaged.MDT = {																	ammo="Vanir Battery",
+		head="Quiahuiz Helm",			neck="Twilight Torque",	ear1="Merman's earring",	ear2="Merman's earring",			      
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",			ring2="Shadow Ring",
+		back="Engulfer Cape",			waist="Nierenschutz",	legs="Gorney Brayettes +1",	feet="Cab. Leggings +1"
+	}
+	
 	sets.engaged.PDTdd = {																		ammo="Vanir Battery",
 		head="Otomi Helm",				neck="Creed Collar",		ear1="Steelflash earring",	ear2="Bladeborn earring",			      
 		body="Mikinaak Breastplate",	hands="Umuthi Gloves",		ring1="Rajas Ring",			ring2="Enlivened Ring",
-		back="Atheling Mantle",			waist="Windbuffet Belt",	legs="Xaddi Cuisses",		feet="Phorcys Schuhs"
+		back="Atheling Mantle",			waist="Windbuffet Belt",	legs="Xaddi Cuisses",		feet="Yorium Sabatons"
 	}
 	sets.engaged.TwiPDT = {																range="Killer Shortbow",
 		head="Twilight Helm",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Bladeborn earring",			      
 		body="Twilight Mail",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Dark Ring",
-		back="Shadow Mantle",	waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Shadow Mantle",	waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.engaged.PDTacc = {																		ammo="Vanir Battery",
 		head="Rev. Coronet +1",	neck="Peacock Charm",	ear1="Steelflash earring",		ear2="Heartseeker earring",			      
 		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Oneiros Annulet",		ring2="Enlivened Ring",
-		back="Weard Mantle",			waist="Anguinus Belt",	legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Weard Mantle",			waist="Anguinus Belt",	legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.engaged.DualDD = {
 		main="Excalibur",		sub="Xiutleato",										ammo="Hasty Pinion +1",
@@ -166,6 +177,6 @@ function init_gear_sets()
 	sets.engaged.FULLacc = {																	ammo="Hasty Pinion +1",
 		head="Tokon Hachimaki",		neck="Peacock Charm",		ear1="Steelflash earring",		ear2="Heartseeker earring",			      
 		body="Mes'yohi Haubergeon",	hands="Outrider Mittens",	ring1="Oneiros Annulet",		ring2="Enlivened Ring",
-		back="Weard Mantle",		waist="Anguinus Belt",		legs="Cab. Breeches +1",	feet="Phorcys Schuhs"
+		back="Weard Mantle",		waist="Anguinus Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 end
