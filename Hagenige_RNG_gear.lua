@@ -7,8 +7,8 @@
 
 function init_gear_sets()
 	sets.weapons = {}
-	sets.weapons.Gun = {range="Armageddon",ammo="Eminent Bullet", ammo2="Eminent Bullet"}
-	--sets.weapons.Gun = {range="Annihilator",ammo="Achiyalabopa Bullet", ammo2="Achiyalabopa Bullet"}
+	--sets.weapons.Gun = {range="Armageddon",ammo="Eminent Bullet", ammo2="Achiyalabopa Bullet"}
+	sets.weapons.Gun = {range="Annihilator",ammo="Eminent Bullet", ammo2="Eminent Bullet"}
 	sets.weapons.Bow = {range="Falubeza",ammo="Eminent Arrow",ammo2="Eminent Arrow"}
 	--sets.weapons.Bow = {range="Phaosphaelia",ammo="Achiyalabopa Arrow",ammo2="Achiyalabopa Arrow"}
 	--sets.weapons.XBow = {}

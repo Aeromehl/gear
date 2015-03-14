@@ -100,7 +100,7 @@ function init_gear_sets()
 	
 	sets.idle = {
 		head="Rev. Coronet +1",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Knight's earring",			      
-		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Dark Ring",
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Patricius Ring",
 		back="Shadow Mantle",			waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.idle.Twilight = {
@@ -123,7 +123,7 @@ function init_gear_sets()
 
 	sets.defense.MDT = {																	ammo="Vanir Battery",
 		head="Quiahuiz Helm",			neck="Twilight Torque",	ear1="Merman's earring",	ear2="Merman's earring",			      
-		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",			ring2="Shadow Ring",
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",			ring2="Patricius Ring",
 		back="Engulfer Cape",			waist="Nierenschutz",	legs="Gorney Brayettes +1",	feet="Cab. Leggings +1"
 	}
 	
@@ -139,7 +139,7 @@ function init_gear_sets()
 	}
 	sets.engaged.MDT = {																	ammo="Vanir Battery",
 		head="Quiahuiz Helm",			neck="Twilight Torque",	ear1="Merman's earring",	ear2="Merman's earring",			      
-		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",			ring2="Shadow Ring",
+		body="Caballarius Surcoat +1",	hands="Umuthi Gloves",	ring1="Dark Ring",			ring2="Patricius Ring",
 		back="Engulfer Cape",			waist="Nierenschutz",	legs="Gorney Brayettes +1",	feet="Cab. Leggings +1"
 	}
 	
@@ -150,7 +150,7 @@ function init_gear_sets()
 	}
 	sets.engaged.TwiPDT = {																range="Killer Shortbow",
 		head="Twilight Helm",	neck="Twilight Torque",	ear1="Steelflash earring",		ear2="Bladeborn earring",			      
-		body="Twilight Mail",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Dark Ring",
+		body="Twilight Mail",	hands="Umuthi Gloves",	ring1="Dark Ring",				ring2="Patricius Ring",
 		back="Shadow Mantle",	waist="Flume Belt",		legs="Cab. Breeches +1",	feet="Yorium Sabatons"
 	}
 	sets.engaged.PDTacc = {																		ammo="Vanir Battery",
@@ -171,7 +171,7 @@ function init_gear_sets()
 	}
 	sets.engaged.TwiMDT = {																ammo="Vanir Battery",
 		head="Twilight Helm",	neck="Twilight Torque",		ear1="Merman's earring",	ear2="Merman's earring",			      
-		body="Twilight Mail",	hands="Outrider Mittens",	ring1="Dark Ring",			ring2="Shadow Ring",
+		body="Twilight Mail",	hands="Outrider Mittens",	ring1="Dark Ring",			ring2="Patricius Ring",
 		back="Engulfer Cape",	waist="Nierenschutz",		legs="Gorney Brayettes +1",	feet="Cab. Leggings +1"
 	}
 	sets.engaged.FULLacc = {																	ammo="Hasty Pinion +1",

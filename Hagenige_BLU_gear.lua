@@ -188,8 +188,8 @@ function init_gear_sets()
 	sets.engaged = {}
 	sets.engaged.DwDD = {																ammo="Vanir Battery",
 		head="Whirlpool Mask",	neck="Asperity Necklace",	ear1="Dudgeon Earring",		ear2="Heartseeker Earring",			      
-		body="Qaaxo Harness",	hands="Qaaxo Mitaines",		ring1="Epona's Ring",		ring2="Cho'j Band",
-		back="Atheling Mantle",	waist="Windbuffet Belt",	legs="Ighwa Trousers",		feet="Qaaxo Leggings"
+		body="Taeon Tabard",	hands="Qaaxo Mitaines",		ring1="Epona's Ring",		ring2="Cho'j Band",
+		back="Atheling Mantle",	waist="Windbuffet Belt",	legs="Taeon Tights",		feet="Qaaxo Leggings"
 	}
 	sets.engaged.DD = {																	ammo="Vanir Battery",
 		head="Whirlpool Mask",	neck="Asperity Necklace",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
