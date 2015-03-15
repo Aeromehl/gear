@@ -130,7 +130,7 @@ function init_gear_sets()
 	sets.idle.lowMP = {
 		main="Bolelabunga",	sub="Genbu's Shield",	ammo="Vanir Battery",
 		head="Artsieq Hat",		neck="Twilight Torque",	ear1="Merman's Earring",	ear2="Merman's Earring",
-		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Dark Ring",
+		body="Artsieq Jubbah", hands="Helios Gloves",	ring1="Dark Ring",	ring2="Patricius Ring",
 		back="Iximulew Cape",	waist="Oneiros Sash",	legs="Assiduity Pants +1",	feet="Regal Pumps"
 	}
 	sets.idle.lowMP_night =	{hands="Serpentes Cuffs"}
