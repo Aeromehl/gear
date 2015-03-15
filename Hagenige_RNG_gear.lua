@@ -91,61 +91,86 @@ function init_gear_sets()
 		body="Taeon Tabard",		hands="Alruna's Gloves +1",	ring1="Longshot Ring",		ring2="Paqichikaji Ring",
 		back="Lutian Cape",			waist="Scout's Belt",		legs="Nahtirah Trousers",	feet="Scopuli Nails +1"
 	}
-	
+	--============================================================
 	--========================[Bow]===============================
+	--============================================================
 	sets.Bow = combineSets({},sets.weapons[modes.weapon])
-	sets.Bow.sam = {}
-	sets.Bow.other = {}
-
-	--4-hit /SAM with 2 recycle procs
-	----added to weapon skill
+	sets.Bow.sam = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	sets.Bow.other = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	----=======> /SAM BOW <=======----
+	--4-hit /SAM with 3 recycle procs
+	----added to weapon skill (3-hit after first ws)
 	sets.Bow.sam['r4-hit'] = {
-		head="",		neck="",		ear1="",	ear2="",
-		body="",		hands="",	ring1="Rajas Ring",		ring2="",
-		back="Tactical Mantle",		waist="Fotia Belt",		legs="",	feet=""
+		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
+		ring1="Rajas Ring", ring2="K'ayres Ring",	back="Lutian Cape",		waist="Goading Belt"
 	}
 	----added to tp shooting
 	sets.Bow.sam['r4-hit'].tp = {
-		head="",	neck="",		ear1="",	ear2="",
-		body="",		hands="",	ring1="Rajas Ring",		ring2="",
-		back="Tactical Mantle",			waist="Goading Belt",		legs="",	feet=""
+		ring1="Rajas Ring", ring2="K'ayres Ring",	waist="Goading Belt"
 	}
-
-	sets.Bow.sam.acc = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	
+	--acc /SAM
+	----added to weapon skill
+	sets.Bow.sam.acc = {}
+	----added to tp shooting
 	sets.Bow.sam.acc.tp = {}
 	
-	--4-hit /??? with 2 recycle procs
-	sets.Bow.other['r4-hit'] = {main="Mekki Shakki", sub="Rose Strap"}
-	sets.Bow.other['r4-hit'].tp = {
-		hands="Sylvan Glovelettes +2",	ring1="Rajas Ring",	ring2="K'ayres Ring",
-		waist="Goading Belt",		legs="Kaabnax Trousers"
+	----=======> /??? BOW <=======----
+	--4-hit /??? with 3 recycle procs
+	----added to weapon skill
+	sets.Bow.other['r4-hit'] = {}
+	----added to tp shooting
+	sets.Bow.other['r4-hit'].tp = {}
+	
+	--acc /???
+	----added to weapon skill
+	sets.Bow.other.acc = {}
+	----added to tp shooting
+	sets.Bow.other.acc.tp = {}
+	--============================================================
+	--========================[Gun]===============================
+	--============================================================
+	sets.Gun = combineSets({},sets.weapons[modes.weapon])
+	sets.Gun.sam = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	sets.Gun.other = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	
+	----=======> /SAM Gun <=======----
+	--4-hit /SAM with 3 recycle procs
+	----added to weapon skill (3-hit after first ws)
+	sets.Gun.sam['r4-hit'] = {
+		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
+		back="Lutian Cape",		waist="Goading Belt"
+	}
+	----added to tp shooting
+	sets.Gun.sam['r4-hit'].tp = {
+		waist="Goading Belt"
 	}
 	
-	sets.Bow.other.acc = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
-	sets.Bow.other.acc.tp = {}
-	
-	--========================[Gun]===============================
-	sets.Gun = combineSets({},sets.weapons[modes.weapon])
-	sets.Gun.sam = {}
-	sets.Gun.other = {}
-	
-	--4-hit /SAM with 2 recycle procs
-	sets.Gun.sam['r4-hit'] = {main="Mekki Shakki", sub="Rose Strap"}
-	sets.Gun.sam['r4-hit'].tp = {waist="Goading Belt"}
-
-	sets.Gun.sam.acc = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	--acc /SAM
+	----added to weapon skill
+	sets.Gun.sam.acc = {}
+	----added to tp shooting
 	sets.Gun.sam.acc.tp = {}
 	
-	--4-hit /??? with 2 recycle procs
-	sets.Gun.other['r4-hit'] = {main="Mekki Shakki", sub="Rose Strap"}
+	----=======> /??? Gun <=======----
+	--4-hit /??? with 3 recycle procs
+	----added to weapon skill
+	sets.Gun.other['r4-hit'] = {
+		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
+		ring1="Rajas Ring",	back="Lutian Cape",		waist="Goading Belt"
+	}
+	----added to tp shooting
 	sets.Gun.other['r4-hit'].tp = {
-		ring1="Rajas Ring",	ring2="K'ayres Ring",
-		back="Sylvan Chlamys",		waist="Goading Belt",	legs="Kaabnax Trousers"
+		ring1="Rajas Ring",waist="Goading Belt"
 	}
 	
-	sets.Gun.other.acc = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	--acc /???
+	----added to weapon skill
+	sets.Gun.other.acc = {}
+	----added to tp shooting
 	sets.Gun.other.acc.tp = {}
-	
+	--============================================================
+	--============================================================
 	--============================================================
 
 	sets.midcast.FastRecast = {
