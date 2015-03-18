@@ -8,8 +8,8 @@
 function init_gear_sets()
 	sets.weapons = {}
 	--sets.weapons.Gun = {range="Armageddon",ammo="Eminent Bullet", ammo2="Achiyalabopa Bullet"}
-	sets.weapons.Gun = {range="Annihilator",ammo="Eminent Bullet", ammo2="Eminent Bullet"}
-	sets.weapons.Bow = {range="Falubeza",ammo="Eminent Arrow",ammo2="Eminent Arrow"}
+	sets.weapons.Gun = {range="Annihilator",ammo="Eminent Bullet", ammo2="Achiyalabopa Bullet"}
+	sets.weapons.Bow = {range="Falubeza",ammo="Tulfaire Arrow",ammo2="Achiyalabopa Arrow"}
 	--sets.weapons.Bow = {range="Phaosphaelia",ammo="Achiyalabopa Arrow",ammo2="Achiyalabopa Arrow"}
 	--sets.weapons.XBow = {}
 
@@ -95,8 +95,8 @@ function init_gear_sets()
 	--========================[Bow]===============================
 	--============================================================
 	sets.Bow = combineSets({},sets.weapons[modes.weapon])
-	sets.Bow.sam = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
-	sets.Bow.other = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	sets.Bow.sam = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
+	sets.Bow.other = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
 	----=======> /SAM BOW <=======----
 	--4-hit /SAM with 3 recycle procs
 	----added to weapon skill (3-hit after first ws)
@@ -131,8 +131,8 @@ function init_gear_sets()
 	--========================[Gun]===============================
 	--============================================================
 	sets.Gun = combineSets({},sets.weapons[modes.weapon])
-	sets.Gun.sam = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
-	sets.Gun.other = {main="Hurlbat", sub={"Atoyac", "Legion Scutum"}}
+	sets.Gun.sam = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
+	sets.Gun.other = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
 	
 	----=======> /SAM Gun <=======----
 	--4-hit /SAM with 3 recycle procs
@@ -157,11 +157,12 @@ function init_gear_sets()
 	----added to weapon skill
 	sets.Gun.other['r4-hit'] = {
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
-		ring1="Rajas Ring",	back="Lutian Cape",		waist="Goading Belt"
+		ring1="Rajas Ring",	ring2="K'ayres Ring", 
+		back="Lutian Cape",	legs="Iuitl Tights",	waist="Goading Belt"
 	}
 	----added to tp shooting
 	sets.Gun.other['r4-hit'].tp = {
-		ring1="Rajas Ring",waist="Goading Belt"
+		ring1="Rajas Ring", ring2="K'ayres Ring", legs="Iuitl Tights", waist="Goading Belt"
 	}
 	
 	--acc /???
