@@ -146,6 +146,22 @@ function init_gear_sets()
 		waist="Goading Belt"
 	}
 	
+	--3-hit /??? with 3 recycle procs after WS
+	----added to weapon skill
+	sets.Gun.other['r3-hit'] = {
+		main="Mekki Shakki", sub="Rose Strap",
+		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
+		ring1="Rajas Ring",	ring2="K'ayres Ring", 
+		back="Tactical Mantle",	legs="Sylvan Bragues +2",	waist="Goading Belt", feet="Qaaxo Leggings"
+	}
+	----added to tp shooting
+	sets.Gun.other['r3-hit'].tp = {
+		main="Mekki Shakki", sub="Rose Strap",
+		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
+		ring1="Rajas Ring",	ring2="K'ayres Ring", 
+		back="Tactical Mantle",	legs="Sylvan Bragues +2",	waist="Goading Belt", feet="Qaaxo Leggings"
+	}
+	
 	--acc /SAM
 	----added to weapon skill
 	sets.Gun.sam.acc = {}
@@ -164,6 +180,8 @@ function init_gear_sets()
 	sets.Gun.other['r4-hit'].tp = {
 		ring1="Rajas Ring", ring2="K'ayres Ring", legs="Iuitl Tights", waist="Goading Belt"
 	}
+	
+	
 	
 	--acc /???
 	----added to weapon skill

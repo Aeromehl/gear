@@ -2,12 +2,13 @@ function init_gear_sets()
 	--============================================================
 	--						Precast sets
 	--============================================================
-	sets.precast.JA['Call Beast'] = {main="Faizzeer +2", hands="Ankusa Gloves"}
+	sets.precast.JA['Call Beast'] = {main="Kumbhakarna", hands="Ankusa Gloves"}
+	sets.precast.JA['Bestial Loyalty'] = {main="Kumbhakarna", hands="Ankusa Gloves"}
 	sets.precast.JA.Familiar = {legs="Ankusa Trousers"}
 	sets.precast.JA.Reward = {
 		main="Zoraal Ja's Axe",	sub="Zoraal Ja's Axe",
-		head="Quiahuiz Helm",	ear1="Lifestorm Earring",
-		body="Espial Gambison",
+		head="Quiahuiz Helm",	
+		body="Emet Harness",
 		--body="Totemic Jackcoat +1"	--potency+22%
 		hands="Ogre Gloves",	ring1="Ramuh Ring +1",
 		legs="Ankusa Trousers",
@@ -32,8 +33,8 @@ function init_gear_sets()
 	}
 	
 	sets.wsBase.DEX = {
-		head="Otomi Helm",		ear1="Thunder Pearl",	ear2="Jupiter's Earring",
-		body="Iuitl Vest +1",	ring1="Ramuh Ring +1",		ring2="Rajas Ring",
+		head="Otomi Helm",		ear1="Thunder Pearl",	ear2="Thunder Pearl",
+		body="Iuitl Vest +1",	ring1="Ramuh Ring +1",		ring2="Ramuh Ring +1",
 		back="Kayapa Cape",
 	}
 	
@@ -55,22 +56,28 @@ function init_gear_sets()
 	
 	sets.engaged = {}
 	sets.engaged.PetTank = {
-		main="Arktoi",					sub="Astolfo",											ammo="Demonry Core",
-		head="Anwig Salade",			neck="Shepherd's Chain",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-		body="Mikinaak Breastplate",	hands="Umuthi Gloves",		ring1="Epona's Ring",		ring2="Oneiros Ring",
-		back="Oneiros Cappa",			waist="Isa Belt",			legs="Xaddi Cuisses",		feet="Whirlpool Greaves"
+		main="Kumbhakarna",			sub="Astolfo",											ammo="Demonry Core",
+		head="Anwig Salade",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Mirke Wardecors",	hands="Ankusa Gloves",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Whirlpool Greaves"
+	}
+	sets.engaged.PetDD = {
+		main="Kumbhakarna",			sub="Arktoi",											ammo="Demonry Core",
+		head="Acro Helm",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Mirke Wardecors",	hands="Acro Gauntlets",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Hurch'lan Sash",			legs="Ankusa Trousers",	feet="Whirlpool Greaves"
 	}
 	sets.engaged.DD = {
-			main="Arktoi",					sub="Hunahpu",											ammo="Vanir Battery",
-			head="Otomi Helm",				neck="Asperity Necklace",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-			body="Mikinaak Breastplate",	hands="Umuthi Gloves",		ring1="Epona's Ring",		ring2="Oneiros Ring",
-			back="Atheling Mantle",			waist="Windbuffet Belt",	legs="Xaddi Cuisses",		feet="Whirlpool Greaves"
+		main="Kumbhakarna",					sub="Hunahpu",											ammo="Vanir Battery",
+		head="Yaoyotl Helm",			neck="Asperity Necklace",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Taeon Tabard",	hands="Acro Gauntlets",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",			waist="Hurch'lan Sash",			legs="Xaddi Cuisses",		feet="Whirlpool Greaves"
 	}
 	sets.engaged.Twilight = {
-		main="Arktoi",			sub="Astolfo",											ammo="Demonry Core",
-		head="Twilight Helm",	neck="Shepherd's Chain",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-		body="Twilight Mail",	hands="Umuthi Gloves",		ring1="Dark Ring",			ring2="Dark Ring",
-		back="Oneiros Cappa",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Adaman Sollerets"
+		main="Kumbhakarna",			sub="Hunahpu",											ammo="Demonry Core",
+		head="Twilight Helm",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Twilight Mail",	hands="Ankusa Gloves",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Whirlpool Greaves"
 	}
 	
 	sets.engaged.with_buff = {}
@@ -83,22 +90,28 @@ function init_gear_sets()
 	
 	sets.idle = {}
 	sets.idle.PetTank = {
-		main="Arktoi",			sub="Astolfo",											ammo="Demonry Core",
-		head="Anwig Salade",	neck="Shepherd's Chain",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-		body="Mirke Wardecors",	hands="Umuthi Gloves",		ring1="Dark Ring",			ring2="Dark Ring",
-		back="Oneiros Cappa",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Adaman Sollerets"
+		main="Kumbhakarna",			sub="Astolfo",											ammo="Demonry Core",
+		head="Anwig Salade",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Mirke Wardecors",	hands="Ankusa Gloves",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Whirlpool Greaves"
+	}
+	sets.idle.PetDD = {
+		main="Kumbhakarna",			sub="Arktoi",											ammo="Demonry Core",
+		head="Acro Helm",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Mirke Wardecors",	hands="Acro Gauntlets",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Hurch'lan Sash",			legs="Ankusa Trousers",	feet="Whirlpool Greaves"
 	}
 	sets.idle.DD = {
-		main="Arktoi",					sub="Hunahpu",											ammo="Vanir Battery",
-		head="Quiahuiz Helm",			neck="Asperity Necklace",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-		body="Mikinaak Breastplate",	hands="Umuthi Gloves",		ring1="Dark Ring",			ring2="Dark Ring",
-		back="Iximulew Cape",			waist="Flume Belt",			legs="Xaddi Cuisses",		feet="Whirlpool Greaves"
+		main="Kumbhakarna",					sub="Hunahpu",											ammo="Vanir Battery",
+		head="Yaoyotl Helm",			neck="Asperity Necklace",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Taeon Tabard",	hands="Acro Gauntlets",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",			waist="Hurch'lan Sash",			legs="Xaddi Cuisses",		feet="Whirlpool Greaves"
 	}
 	sets.idle.Twilight = {
-		main="Arktoi",			sub="Astolfo",											ammo="Demonry Core",
-		head="Twilight Helm",	neck="Shepherd's Chain",	ear1="Steelflash Earring",	ear2="Bladeborn Earring",
-		body="Twilight Mail",	hands="Umuthi Gloves",		ring1="Dark Ring",			ring2="Dark Ring",
-		back="Oneiros Cappa",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Adaman Sollerets"
+		main="Kumbhakarna",			sub="Hunahpu",											ammo="Demonry Core",
+		head="Twilight Helm",	neck="Shepherd's Chain",	ear1="Brutal Earring",	ear2="Suppanomimi",
+		body="Twilight Mail",	hands="Ankusa Gloves",		ring1="Epona's Ring",			ring2="Oneiros Ring",
+		back="Pastoralist's mantle",	waist="Isa Belt",			legs="Ferine Quijotes +2",	feet="Whirlpool Greaves"
 	}
 	sets.idle.with_buff = {}
 	
