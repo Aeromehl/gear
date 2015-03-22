@@ -95,17 +95,17 @@ function init_gear_sets()
 	--========================[Bow]===============================
 	--============================================================
 	sets.Bow = combineSets({},sets.weapons[modes.weapon])
-	sets.Bow.sam = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
-	sets.Bow.other = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
+	sets.Bow.sam = {}
+	sets.Bow.other = {}
 	----=======> /SAM BOW <=======----
 	--4-hit /SAM with 3 recycle procs
 	----added to weapon skill (3-hit after first ws)
-	sets.Bow.sam['r4-hit'] = {
+	sets.Bow.sam['r4-hit'] = {main="Hurlbat", sub="Legion Scutum",
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
 		ring1="Rajas Ring", ring2="K'ayres Ring",	back="Lutian Cape",		waist="Goading Belt"
 	}
 	----added to tp shooting
-	sets.Bow.sam['r4-hit'].tp = {
+	sets.Bow.sam['r4-hit'].tp = {main="Hurlbat", sub="Legion Scutum",
 		ring1="Rajas Ring", ring2="K'ayres Ring",	waist="Goading Belt"
 	}
 	
@@ -118,9 +118,9 @@ function init_gear_sets()
 	----=======> /??? BOW <=======----
 	--4-hit /??? with 3 recycle procs
 	----added to weapon skill
-	sets.Bow.other['r4-hit'] = {}
+	sets.Bow.other['r4-hit'] = {main="Hurlbat", sub="Legion Scutum"}
 	----added to tp shooting
-	sets.Bow.other['r4-hit'].tp = {}
+	sets.Bow.other['r4-hit'].tp = {main="Hurlbat", sub="Legion Scutum"}
 	
 	--acc /???
 	----added to weapon skill
@@ -131,31 +131,31 @@ function init_gear_sets()
 	--========================[Gun]===============================
 	--============================================================
 	sets.Gun = combineSets({},sets.weapons[modes.weapon])
-	sets.Gun.sam = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
-	sets.Gun.other = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
+	sets.Gun.sam = {}
+	sets.Gun.other = {}
 	
 	----=======> /SAM Gun <=======----
 	--4-hit /SAM with 3 recycle procs
 	----added to weapon skill (3-hit after first ws)
-	sets.Gun.sam['r4-hit'] = {
+	sets.Gun.sam['r4-hit'] = {main="Hurlbat", sub="Legion Scutum",
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
 		back="Lutian Cape",		waist="Goading Belt"
 	}
 	----added to tp shooting
-	sets.Gun.sam['r4-hit'].tp = {
+	sets.Gun.sam['r4-hit'].tp = {main="Hurlbat", sub="Legion Scutum",
 		waist="Goading Belt"
 	}
 	
-	--3-hit /??? with 3 recycle procs after WS
+	--3-hit /SAM with 3 recycle procs after WS
 	----added to weapon skill
-	sets.Gun.other['r3-hit'] = {
+	sets.Gun.sam['r3-hit'] = {
 		main="Mekki Shakki", sub="Rose Strap",
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
 		ring1="Rajas Ring",	ring2="K'ayres Ring", 
 		back="Tactical Mantle",	legs="Sylvan Bragues +2",	waist="Goading Belt", feet="Qaaxo Leggings"
 	}
 	----added to tp shooting
-	sets.Gun.other['r3-hit'].tp = {
+	sets.Gun.sam['r3-hit'].tp = {
 		main="Mekki Shakki", sub="Rose Strap",
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
 		ring1="Rajas Ring",	ring2="K'ayres Ring", 
@@ -164,20 +164,20 @@ function init_gear_sets()
 	
 	--acc /SAM
 	----added to weapon skill
-	sets.Gun.sam.acc = {}
+	sets.Gun.sam.acc = {main="Hurlbat", sub="Legion Scutum"}
 	----added to tp shooting
-	sets.Gun.sam.acc.tp = {}
+	sets.Gun.sam.acc.tp = {main="Hurlbat", sub="Legion Scutum"}
 	
 	----=======> /??? Gun <=======----
 	--4-hit /??? with 3 recycle procs
 	----added to weapon skill
-	sets.Gun.other['r4-hit'] = {
+	sets.Gun.other['r4-hit'] = {main="Hurlbat", sub="Legion Scutum",
 		head="Arcadian Beret +1",neck="Ocachi Gorget",ear2="Volley Earring",
 		ring1="Rajas Ring",	ring2="K'ayres Ring", 
 		back="Lutian Cape",	legs="Iuitl Tights",	waist="Goading Belt"
 	}
 	----added to tp shooting
-	sets.Gun.other['r4-hit'].tp = {
+	sets.Gun.other['r4-hit'].tp = {main="Hurlbat", sub="Legion Scutum",
 		ring1="Rajas Ring", ring2="K'ayres Ring", legs="Iuitl Tights", waist="Goading Belt"
 	}
 	
@@ -185,9 +185,9 @@ function init_gear_sets()
 	
 	--acc /???
 	----added to weapon skill
-	sets.Gun.other.acc = {}
+	sets.Gun.other.acc = {main="Hurlbat", sub="Legion Scutum"}
 	----added to tp shooting
-	sets.Gun.other.acc.tp = {}
+	sets.Gun.other.acc.tp = {main="Hurlbat", sub="Legion Scutum"}
 	--============================================================
 	--============================================================
 	--============================================================
