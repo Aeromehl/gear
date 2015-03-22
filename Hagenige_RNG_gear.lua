@@ -95,8 +95,8 @@ function init_gear_sets()
 	--========================[Bow]===============================
 	--============================================================
 	sets.Bow = combineSets({},sets.weapons[modes.weapon])
-	sets.Bow.sam = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
-	sets.Bow.other = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
+	sets.Bow.sam = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
+	sets.Bow.other = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
 	----=======> /SAM BOW <=======----
 	--4-hit /SAM with 3 recycle procs
 	----added to weapon skill (3-hit after first ws)
@@ -131,8 +131,8 @@ function init_gear_sets()
 	--========================[Gun]===============================
 	--============================================================
 	sets.Gun = combineSets({},sets.weapons[modes.weapon])
-	sets.Gun.sam = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
-	sets.Gun.other = {main="Hurlbat", sub={"Antican Axe", "Legion Scutum"}}
+	sets.Gun.sam = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
+	sets.Gun.other = {main="Hurlbat", sub={"Legion Scutum", "Legion Scutum"}}
 	
 	----=======> /SAM Gun <=======----
 	--4-hit /SAM with 3 recycle procs

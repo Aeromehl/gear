@@ -77,6 +77,12 @@ function init_gear_sets()
 		body="Qaaxo Harness",			hands="Plunderer's Armlets +1",	ring1="Paguroidea Ring",	ring2="Capacity Ring",
 		back="Aptitude Mantle +1",		waist="Windbuffet Belt",		legs="Kaabnax Trousers",	feet="Fajin Boots"
 	}
+	sets.idle.Zeni = {
+		range="Soultrapper 2000",  ammo="Blank Soulplate",
+		head="Ocelomeh Headpiece +1",	neck="Wiglen Gorget",			ear1="Dudgeon Earring",		ear2="Heartseeker Earring",
+		body="Qaaxo Harness",			hands="Plunderer's Armlets +1",	ring1="Paguroidea Ring",	ring2="Capacity Ring",
+		back="Aptitude Mantle +1",		waist="Windbuffet Belt",		legs="Kaabnax Trousers",	feet="Fajin Boots"
+	}
 	sets.idle.with_buff = {}
 	
 	sets.defense.Evasion = {}
