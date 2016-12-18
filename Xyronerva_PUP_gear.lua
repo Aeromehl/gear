@@ -52,13 +52,13 @@ function init_gear_sets()
 								range="Divinator",
 								waist="Hurch'lan Sash",
 								back={"Visucius's Mantle", 'Dispersal Mantle'}}
-	sets.precast.JA['Repair'] = {ear1="Ghignol Earring",ear2="Pratik Earring",feet={'Foire Babouches +1', 'Puppetry Babouches +1', 'Foire Babouches',  'Puppetry Babouches'}}
-	sets.precast.JA['Overdrive'] = {body={'Pitre Tobe +2', 'Pitre Tobe +1', 'Pitre Tobe'}}
+	sets.precast.JA['Repair'] = {ear1="Guignol Earring",ear2="Pratik Earring",feet={'Foire Babouches +1', 'Puppetry Babouches +1', 'Foire Babouches',  'Puppetry Babouches'}}
+	sets.precast.JA['Overdrive'] = {body={'Pitre Tobe +1', 'Pitre Tobe'}}
 	sets.precast.JA['Activate'] = {back="Visucius's Mantle"}
 	sets.precast.JA['Deus Ex Automata'] = {}
 	sets.precast.JA['Maintenance'] = {}
-	sets.precast.JA['Role Reversal'] = {feet={'Pitre Babouches +2', 'Pitre Babouches +1', 'Pitre Babouches'}}
-	sets.precast.JA['Ventriloquy'] = {legs={'Pitre Churidars +2', 'Pitre Churidars +1', 'Pitre Churidars'}}
+	sets.precast.JA['Role Reversal'] = {feet={'Pitre Babouches +1', 'Pitre Babouches'}}
+	sets.precast.JA['Ventriloquy'] = {legs={'Pitre Churidars +1', 'Pitre Churidars'}}
 	sets.precast.JA['Tactical Switch'] = {feet={'Karagoz Scarpe +1','Karagoz Scarpe', 'Cirque Scarpe +2', 'Cirque Scarpe +1'}}
 	sets.precast.JA['Cooldown'] = {}
 	sets.precast.JA['Heady Artifice'] = {}
@@ -122,10 +122,10 @@ function init_gear_sets()
 	--	May not work		VVVVVVVV
 	--============================================================
 	--============================================================
-	sets.midcast.Pet.weaponskill = {body="Thaumas Coat"}
-	sets.midcast.Pet.ElementalMagic = {body="Thaumas Coat"}
-	sets.midcast.Pet.HealingMagic = {body="Thaumas Coat"}
-	sets.midcast.Pet.RA = {body="Thaumas Coat"}
+	--sets.midcast.Pet.weaponskill = {body="Thaumas Coat"}
+	--sets.midcast.Pet.ElementalMagic = {body="Thaumas Coat"}
+	--sets.midcast.Pet.HealingMagic = {body="Thaumas Coat"}
+	--sets.midcast.Pet.RA = {body="Thaumas Coat"}
 	--============================================================
 	--============================================================
 	--	May not work		^^^^^^^^
@@ -159,7 +159,8 @@ function init_gear_sets()
 	sets.idle.with_buff['doom'] = {ring1={"Eshmun's Ring", "Saida Ring"}, ring2={"Eshmun's Ring", "Saida Ring"}, waist="Gishdubar Sash"}
 	sets.idle.with_buff['reive mark'] = {neck={"Adoulin's Refuge +1", "Ygnas's Resolve +1", "Arciela's Grace +1", "Adoulin's Refuge", "Ygnas's Resolve", "Arciela's Grace"}}
 	
-	sets.weapons = {main="Oatixur", Range="Eminent Animator II", Ammo={"Automaton Oil +3", "Automaton Oil +2", "Automaton Oil +1", "Automaton Oil"}}
+	sets.weapons = {}
+	sets.weapons.Main = {main="Oatixur", range="Eminent Animator II", ammo={"Automat. Oil +3", "Automat. Oil +2", "Automat. Oil +1", "Automaton Oil"}}
 	
 	sets.engaged = {}
 	sets.engaged.Standard = {head="Pitre Taj +1",
